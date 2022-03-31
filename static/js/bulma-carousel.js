@@ -1032,7 +1032,7 @@ var onMouseEnter = Symbol('onMouseEnter');
 var onMouseLeave = Symbol('onMouseLeave');
 
 var defaultOptions = {
-	autoplay: false,
+	autoplay: true,
 	autoplaySpeed: 3000
 };
 
@@ -2322,7 +2322,7 @@ var defaultOptions = {
   duration: 300,
   timing: 'ease',
 
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 3000,
   pauseOnHover: true,
   breakpoints: [{

@@ -34,8 +34,8 @@ $(document).ready(function() {
 			slidesToShow: 1,
 			loop: true,
 			infinite: true,
-			autoplay: false,
-			autoplaySpeed: 3000,
+			autoplay: true,
+			autoplaySpeed: 4000,
     }
 
 		// Initialize all div with carousel class
@@ -89,11 +89,11 @@ $(document).ready(function() {
 
     var options = {
 			slidesToScroll: 1,
-			slidesToShow: 3,
+			slidesToShow: 2,
 			loop: true,
 			infinite: true,
-			autoplay: false,
-			autoplaySpeed: 3000,
+			autoplay: true,
+			autoplaySpeed: 4000,
     }
 
 		// Initialize all div with carousel class
@@ -149,8 +149,8 @@ $(document).ready(function() {
 			slidesToShow: 2,
 			loop: true,
 			infinite: true,
-			autoplay: false,
-			autoplaySpeed: 3000,
+			autoplay: true,
+			autoplaySpeed: 6000,
     }
 
 		// Initialize all div with carousel class

@@ -9,17 +9,13 @@
     <title>MyStyle</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-89YPC48M36"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8WL4MPNGZ"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-89YPC48M36');
+      gtag('config', 'G-J8WL4MPNGZ');
     </script>
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -55,18 +51,19 @@
                         <span class="author-block">
                             <a href="https://kfiraberman.github.io/">Kfir Aberman</a><sup>1</sup>,
                         </span>
-                        <span>
-                            <a href="michalyarom@google.com">Michal Yarom</a><sup>1</sup>,
-                        </span>
                         <span class="author-block">
                             <a href="https://research.google/people/QiuruiCharlesHe/">Qiurui He</a><sup>1</sup>,
                         </span>
                         <span class="author-block">
-                            <a href="https://yossi.gandelsman.com/">Yossi Gandelsman</a><sup>1</sup>,
-                        </span>
-                        <span class="author-block">
                             <a href="https://sites.google.com/view/orly-liba">Orly Liba</a><sup>1</sup>,
                         </span>
+                        <span class="author-block">
+                            <a href="michalyarom@google.com">Michal Yarom</a><sup>1</sup>,
+                        </span>
+                        <span class="author-block">
+                            <a href="https://yossi.gandelsman.com/">Yossi Gandelsman</a><sup>1</sup>,
+                        </span>
+                        <br>
                         <span class="author-block">
                               <a href="https://research.google.com/pubs/InbarMosseri.html">Inbar Mosseri</a><sup>1</sup>,
                         </span>
@@ -115,7 +112,7 @@
                             <!--              </span>-->
                             <!-- Video Link. -->
                             <span class="link-block">
-                <a href="https://www.youtube.com/watch?XXX"
+                <a href="https://youtu.be/QvOdQR3tlOc"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -125,12 +122,12 @@
               </span>
                             <!-- Code Link. -->
                             <span class="link-block">
-                <a href="https://github.com/XXX"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code (Soon)</span>
                   </a>
               </span>
                             <!-- Dataset Link. -->
@@ -168,23 +165,6 @@
 </section>
 
 
-<!--<section class="hero is-light is-small">-->
-<!--    <div class="hero-body">-->
-<!--        <div class="columns is-centered">-->
-<!--            <div class="column">-->
-<!--                <div class="container">-->
-<!--                    <div class="item item-teaser">-->
-<!--                        <div class="publication-img">-->
-<!--                            <img id="teaser" src="static/images/teaser.png">-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-
 <section class="hero">
     <div class="container is-max-desktop">
         <!-- Abstract. -->
@@ -196,24 +176,17 @@
                         We introduce MyStyle, a personalized deep generative prior trained with a few shots of an
                         individual, which allows to reconstruct, enhance and edit images that are faithful to their key
                         facial characteristics.
-                    </p>
-                    <p>
                         Given a small reference set of portrait images of a person (~100), we tune the weights of a
                         pretrained StyleGAN face generator to form a local, low-dimensional, personalized manifold in
                         the latent space.
                         We show that this manifold constitutes a personalized region that spans latent codes associated
                         with diverse portrait images of the individual.
-
-                    </p>
-                    <p>
                         Moreover, we demonstrate that we obtain a personalized generative prior, and propose a unified
                         approach to apply it to various ill-posed image enhancement problems, such as inpainting and
                         super-resolution, as well as semantic editing.
                         Using the personalized generative prior we obtain outputs that exhibit
                         high-fidelity to the input images and are also faithful to the key facial characteristics of the
                         individual in the reference set.
-                    </p>
-                    <p>
                         We demonstrate our method on numerous widely recognizable individuals (in fair-use images) for
                         whom we have the prior knowledge for a qualitative evaluation of the expected outcome.
                         We evaluate our approach against few-shots baselines and show that our personalized prior,
@@ -228,10 +201,8 @@
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
                 <h2 class="title is-3">Video</h2>
-                <h3>TODO: Change open slide from submission to list of authors, narrate the video myself, upload to
-                    youtube</h3>
                 <div class="publication-video">
-                    <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                    <iframe src="https://www.youtube.com/embed/QvOdQR3tlOc?rel=0&amp;showinfo=0"
                             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             </div>
@@ -240,7 +211,7 @@
     </div>
 </section>
 
-<section class="hero is-small">
+<section class="hero is-light is-small">
     <div class="hero-body unpad">
         <div class="columns is-centered">
             <div class="column">
@@ -330,23 +301,44 @@
                         </div>
                         <div class="item item-inpainting">
                             <div class="carousel-content">
-                                <img src="static/images/inpainting/barack_obama.jpg"
-                                     alt="Barack Obama"/>
+                                <img src="static/images/inpainting/michelle_obama.jpg"
+                                     alt="Michelle Obama"/>
                                 <h2 class="subtitle has-text-centered">Barack Obama</h2>
                             </div>
                         </div>
-                        <div class="item item-otter">
+                        <div class="item item-inpainting">
                             <div class="carousel-content">
                                 <img src="static/images/inpainting/dwayne_johnson.jpg"
                                      alt="X"/>
                                 <h2 class="subtitle has-text-centered">Dwayne Johnson</h2>
                             </div>
                         </div>
-                        <div class="item item-otter">
+                        <div class="item item-inpainting">
                             <div class="carousel-content">
                                 <img src="static/images/inpainting/joe_biden.jpg"
                                      alt="Joe biden"/>
                                 <h2 class="subtitle has-text-centered">Joe Biden</h2>
+                            </div>
+                        </div>
+                        <div class="item item-inpainting">
+                            <div class="carousel-content">
+                                <img src="static/images/inpainting/xi_jinping.jpg"
+                                     alt="Xi Jinping"/>
+                                <h2 class="subtitle has-text-centered">Xi Jinping</h2>
+                            </div>
+                        </div>
+                        <div class="item item-inpainting">
+                            <div class="carousel-content">
+                                <img src="static/images/inpainting/adele.jpg"
+                                     alt="Adele"/>
+                                <h2 class="subtitle has-text-centered">Adele</h2>
+                            </div>
+                        </div>
+                        <div class="item item-inpainting">
+                            <div class="carousel-content">
+                                <img src="static/images/inpainting/angela_merkel.jpg"
+                                     alt="Angela Merkel"/>
+                                <h2 class="subtitle has-text-centered">Angela Merkel</h2>
                             </div>
                         </div>
                     </div>
@@ -355,112 +347,6 @@
         </div>
     </div>
 </section>
-
-
-<!--<section class="hero is-small">-->
-<!--    <div class="hero-body unpad">-->
-<!--        <div class="section-title">-->
-<!--            <h2 class="title is-2 is-centered">Image Enhancement</h2>-->
-<!--        </div>-->
-<!--        <div class="columns is-centered">-->
-<!--            <div class="column is-one-quarter">-->
-<!--                <div class="container is-max-desktop">-->
-<!--                    <div class="section-title">-->
-<!--                        <h2 class="title is-3 is-centered">Inpainting</h2>-->
-<!--                    </div>-->
-<!--                    <div id="results-carousel-inpainting" class="carousel results-carousel">-->
-<!--                        <div class="item item-inpainting">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/inpainting/barack_obama.jpg"-->
-<!--                                     alt="Barack Obama"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Barack Obama</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-otter">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/inpainting/dwayne_johnson.jpg"-->
-<!--                                     alt="X"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Dwayne Johnson</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-otter">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/inpainting/joe_biden.jpg"-->
-<!--                                     alt="Joe biden"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Joe Biden</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="column is-one-quarter">-->
-<!--                <div class="container is-max-desktop">-->
-<!--                    <div class="section-title">-->
-<!--                        <h2 class="title is-3 is-centered">Super-Resolution</h2>-->
-<!--                    </div>-->
-<!--                    <div id="results-carousel-SR" class="carousel results-carousel">-->
-<!--                        <div class="item item-michelle-obama">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/michelle_obama.jpg"-->
-<!--                                     alt="Michelle Obama"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Michelle Obama</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-oprah">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/oprah_winfrey.jpg"-->
-<!--                                     alt="Oprah Winfrey"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Oprah Winfrey</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-swift">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/taylor_swift.jpg"-->
-<!--                                     alt="Taylor Swift"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Taylor Swift</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-merkel">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/angela_merkel.jpg"-->
-<!--                                     alt="Angela Merkel"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Angela Merkel</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-clarke">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/emilia_clarke.jpg"-->
-<!--                                     alt="Emilia Clarke"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Emilia Clarke</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-harris">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/kamala_harris.jpg"-->
-<!--                                     alt="Kamala Harris"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Kamala Harris</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-barack-obama">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/barack_obama.jpg"-->
-<!--                                     alt="Barack Obama"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Barack Obama</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="item item-harris">-->
-<!--                            <div class="carousel-content">-->
-<!--                                <img src="static/images/sr/dwayne_johnson.jpg"-->
-<!--                                     alt="Dwayne Johnson"/>-->
-<!--                                <h2 class="subtitle has-text-centered">Dwayne Johnson</h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
 <section class="hero is-light is-small">
     <div class="hero-body">
@@ -534,7 +420,7 @@
     </div>
 </section>
 
-<section class="hero is-light is-small">
+<section class="hero is-small">
     <div class="hero-body unpad">
         <div class="columns is-centered">
             <div class="column is-three-fifth">
@@ -712,27 +598,27 @@
     </div>
 </section>
 
-<section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-        <h2 class="title">BibTeX</h2>
-        <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
-    </div>
-</section>
+<!--<section class="section" id="BibTeX">-->
+<!--    <div class="container is-max-desktop content">-->
+<!--        <h2 class="title">BibTeX</h2>-->
+<!--        <pre><code>@article{park2021nerfies,-->
+<!--  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},-->
+<!--  title     = {Nerfies: Deformable Neural Radiance Fields},-->
+<!--  journal   = {ICCV},-->
+<!--  year      = {2021},-->
+<!--}</code></pre>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <footer class="footer">
     <div class="container">
         <div class="content has-text-centered">
             <a class="icon-link"
-               href="https://arxiv.org/abs/">
+               href="">
                 <i class="fas fa-file-pdf"></i>
             </a>
-            <a class="icon-link" href="https://github.com/XXX" class="external-link" disabled>
+            <a class="icon-link" href="" class="external-link" disabled>
                 <i class="fab fa-github"></i>
             </a>
         </div>
