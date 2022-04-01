@@ -1,6 +1,7 @@
 # MyStyle
 
-This is the repository that contains source code for the [MyStyle website](mystyle-personalized-prior.github.io). It based in part on the code of the [Nerfies website](https://nerfies.github.io). If you reuse this code, please credit them.
+This is the repository that contains source code for the [MyStyle website](https://mystyle-personalized-prior.github.io).
+It based in part on the code of the [Nerfies website](https://nerfies.github.io). If you reuse this code, please credit them.
 
 
 
