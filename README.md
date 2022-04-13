@@ -1,14 +1,19 @@
 # MyStyle
 
 This is the repository that contains source code for the [MyStyle website](https://mystyle-personalized-prior.github.io).
-It based in part on the code of the [Nerfies website](https://nerfies.github.io). If you reuse this code, please credit them.
+It is based in part on the code of the [Nerfies website](https://nerfies.github.io). If you reuse this code, please credit them.
 
 
 
 If you find MyStyle useful for your work please cite:
 
 ```
-@article{X}
+@article{nitzan2022mystyle,
+  title={MyStyle: A Personalized Generative Prior},
+  author={Nitzan, Yotam and Aberman, Kfir and He, Qiurui and Liba, Orly and Yarom, Michal and Gandelsman, Yossi and Mosseri, Inbar and Pritch, Yael and Cohen-Or, Daniel},
+  journal={arXiv preprint arXiv:2203.17272},
+  year={2022}
+}
 ```
 
 # Website License
